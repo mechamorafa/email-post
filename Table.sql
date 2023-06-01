@@ -1,0 +1,6 @@
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255),
+    conteudo TEXT,
+    data_publicacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
